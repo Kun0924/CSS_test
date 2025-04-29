@@ -1,0 +1,112 @@
+/* Header Styles */
+.header {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Top */
+.header-top {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.header-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.header-link:hover {
+    color: #007bff;
+}
+
+/* Header Main */
+.header-main {
+    padding: 20px 0;
+}
+
+.header-main .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.logo a {
+    color: #2ecc71;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Bungee Shade', 'Rubik Spray Paint', 'Special Gothic Expanded One', sans-serif;
+}
+
+.search-box {
+    display: flex;
+    width: 300px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.search-box button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-box button:hover {
+    background-color: #0056b3;
+}
+
+/* Main Menu */
+.main-menu {
+    background-color: #333;
+    padding: 15px 0;
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+    justify-content: center;
+}
+
+.menu-list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.menu-list li a:hover {
+    color: #007bff;
+} 
